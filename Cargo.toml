@@ -1,0 +1,11 @@
+[package]
+name = "rustblog"
+version = "0.1.0"
+authors = ["raphaelsoul <raphaelsoul@163.com>"]
+
+[[bin]]
+name = "guess"
+path = "src/guess.rs"
+
+[dependencies]
+rand = "0.3.14"
