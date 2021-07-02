@@ -7,5 +7,9 @@ authors = ["raphaelsoul <raphaelsoul@163.com>"]
 name = "guess"
 path = "src/guess.rs"
 
+[[bin]]
+name = "http"
+path = "src/http.rs"
+
 [dependencies]
 rand = "0.3.14"
