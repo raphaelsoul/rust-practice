@@ -8,7 +8,7 @@ fn main() {
     println!("guess a number!");
 
     let mut rng = rand::thread_rng();
-    let secret = rng.gen_range(0, 101);
+    let secret = rng.gen_range(0..101);
 
     loop {
         println!("Input Your Guess:");
